@@ -1,0 +1,41 @@
+.bg-img {
+    /* The image used */
+    background-image: url(../images/banner.jpg);
+  
+    min-height: 900px;
+  
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Needed to position the navbar */
+    position: relative;
+}
+
+.navbar-default {
+    background-color: inherit;
+    color: white;
+}
+
+.container-fluid {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.input-group {
+    padding-left: 450px;
+}
+
+.navbar-brand {
+    font-size: 250%;
+    font-weight: bold;
+}
+
+.whitebar {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
