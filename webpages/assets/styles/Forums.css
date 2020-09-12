@@ -1,0 +1,85 @@
+.body{
+    background-color:#E5E5E5 ;
+}
+.bg-img {
+    /* The image used */
+    background-image: url(../images/banner.jpg);
+  
+    min-height: 900px;
+  
+    /* Center and scale the image nicely */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Needed to position the navbar */
+    position: relative;
+
+}
+
+.navbar-default {
+    background-color: inherit;
+    color: white;
+}
+
+.container-fluid {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.input-group {
+    padding-left: 450px;
+}
+
+.navbar-brand {
+    font-size: 250%;
+    font-weight: bold;
+    color:#ffffff !important;
+}
+
+.whitebar {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+h1{
+    position: absolute;
+    width: 1448px;
+    height: 76px;
+    left: 970px;
+    top: 424px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    
+    color: #FFFFFF;
+}
+.bottomH{
+
+    text-align: center;
+    width: 271px;
+    height: 78px;
+    left: 950px;
+    top: 800px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    
+    color: #2B2B2B; 
+}
