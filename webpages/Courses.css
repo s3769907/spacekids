@@ -6,7 +6,7 @@ body{
 .bg-img {
     /* The image used */
     background-image: url(../images/banner.png);
-  height: auto;
+  
     min-height: 900px;
   
     /* Center and scale the image nicely */
