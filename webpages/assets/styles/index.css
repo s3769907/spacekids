@@ -34,6 +34,10 @@
     color:#ffffff !important;
 }
 
+.navbar-nav{
+    color:white !important;
+}
+
 .whitebar {
     position: absolute;
     width: 100%;
