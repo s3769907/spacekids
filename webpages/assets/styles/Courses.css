@@ -5,16 +5,11 @@ body{
 }
 .bg-img {
     /* The image used */
-    background-image: url(../images/banner.png);
-  
-    min-height: 900px;
-  
-    /* Center and scale the image nicely */
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    /* Needed to position the navbar */
-    position: relative;
+    background: url(../images/banner.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 100%;
+   
 
 }
 .page-wrapper{
