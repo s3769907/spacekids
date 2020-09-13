@@ -130,7 +130,35 @@ h2 {
 ol {
     list-style-type: none;
 }
+/* Banner */
 
+.Limbar {
+    width: 100px;
+    top: 44%;
+    height: 2px;
+    background-color: #65FC74;
+    margin-left: 47.3%; 
+}
+
+.studentbannerbutton {
+    margin-top: 2%;
+}
+
+.getstarted{
+    background-color: #00BD62;
+    color: white;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 14px 40px;
+    border-color: #1ACBC0;
+}
+.studentbanner {
+    background-color: #5385C1;
+    height: 500px;
+    text-align: center;
+    color: white;
+    padding-top: 100px; 
+}
 
 /* footer*/
 
