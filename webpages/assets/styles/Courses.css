@@ -159,6 +159,36 @@ ol {
     color: white;
     padding-top: 100px; 
 }
+.studentbanner h1 {
+    position: absolute;
+    left: 35%;
+    top: 2030px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 80px;
+line-height: 94px;
+
+color: #FFFFFF;
+}
+.studentbanner h2{
+    position: absolute;
+left: 26%;
+top: 2210px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+
+color: #E6E6E6;
+}
+.studentbannerbutton {
+    position: absolute;
+left:45%;
+top: 2300px;
+}
 
 /* footer*/
 
