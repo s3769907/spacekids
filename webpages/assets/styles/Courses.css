@@ -5,11 +5,19 @@ body {
 }
 
 .bg-img {
-    /* The image used */
-    background: url(../images/banner.png);
-    background-size: 100%;
-    background-attachment: fixed;
-    height: 100%;
+     /* The image used */
+     background-image: url(../images/banner.jpg);
+  
+     min-height: 900px;
+   
+     /* Center and scale the image nicely */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+     /* Needed to position the navbar */
+     position: relative;
    
 
 }
@@ -229,3 +237,27 @@ ol {
     left: 30px;
     border: 3px solid #525252;
 }
+
+/* navlink highlight*/
+.nav-link-wrapper {
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+    padding-right: 30px;
+    padding-top: 25px;
+}
+
+    .nav-link-wrapper a {
+        color: #8a8a8a;
+        text-decoration: none;
+        transition: color 0.5s;
+        display: inline;
+    }
+
+    .nav-link-wrapper a:hover {
+        color: black;
+        display: inline;
+    }
+
+        .active-nav-link a {
+            color: green;
+        }
