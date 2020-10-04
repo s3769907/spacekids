@@ -221,3 +221,29 @@ ol {
     left: 30px;
     border: 3px solid #525252;
 }
+
+
+/* navlink highlight*/
+
+.nav-link-wrapper {
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+    padding-right: 30px;
+    padding-top: 25px;
+}
+
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+    display: inline;
+}
+
+.nav-link-wrapper a:hover {
+    color: black;
+    display: inline;
+}
+
+.active-nav-link a {
+    color: green;
+}
