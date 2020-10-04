@@ -1,3 +1,5 @@
+
+<?php include('../loginbkend.php') ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -58,18 +60,20 @@
             <h1>Login</h1>
             <h2>Please fill in your credentials to login.</h2>
             <div class="greenbar"></div>
-            <form class="form" action="">
+            <form class="form" method="post">
                 <div class="form-group">
                   <label>Username</label>
-                  <input type="email" class="form-control" id="email">
+                  <input type="text" class="form-control" id="email" name="username">
+                  <label class="err"><?php echo $username_err ?></label> 
                 </div>
                 <div class="form-group">
                   <label>Password</label>
-                  <input type="password" class="form-control" id="pwd">
+                  <input type="password" class="form-control" id="pwd" name="password">
+                  <label class="err"> <?php echo $password_err ?></label> 
                 </div>
                 <input class="btn btn-primary" type="submit" value="Submit">
               </form>
-              <h4>Don't have an account? <a href="registration.html">Sign up now</a></h4>
+              <h4>Don't have an account? <a href="registration.php">Sign up now</a></h4>
 
 
 
