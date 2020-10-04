@@ -4,7 +4,7 @@ server with default setting (user 'root' with no password) */
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'spacekids_user');
 define('DB_PASSWORD', '12345');
-define('DB_NAME', 'spacekids');
+define('DB_NAME', 'spacekidsdb');
  
 /* Attempt to connect to MySQL database */
 $link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
