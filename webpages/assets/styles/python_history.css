@@ -1,0 +1,286 @@
+html, 
+body{
+    height: 100%;
+    background-color:white ;
+}
+
+.bg-img {
+    /* The image used */
+    background-image: url(../images/banner.jpg);
+  
+    min-height: 900px;
+  
+    /* Center and scale the image nicely */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Needed to position the navbar */
+    position: relative;
+
+}
+
+.bg-img2 {
+    /* The image used */
+    background-image: url(../images/banner.jpg);
+  
+    min-height: 500px;
+    background-color: #525252;
+  
+    /* Center and scale the image nicely */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* Needed to position the navbar */
+    position: relative;
+    bottom: 0;
+}
+/* two coloumn */
+.two-column-wrapper {
+    display: grid;
+    grid-template-columns: 0.35fr 1fr;
+  }
+  /* Main content */
+  .profile-content-wrapper {
+    padding-left: 40px;
+    text-align: center;
+  }
+.page-wrapper{
+    min-height: 100%;
+}
+
+.left-nav-bar {
+    padding-top: 40px;
+    width: 500px;
+    height: 100%;
+    background-color: #E8E8E8;
+    text-align: center;
+}
+
+.maincontent{
+    position: absolute;
+    margin-left: 500px;
+}
+
+.navbar-default {
+    background-color: inherit;
+    color: white;
+}
+
+.container-fluid {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.input-group {
+    padding-left: 450px;
+}
+
+.navbar-brand {
+    font-size: 250%;
+    font-weight: bold;
+    color:#ffffff !important;
+}
+
+.whitebar {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: white;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+}
+
+.headerbanner{
+    margin-top: 10%;
+    background-color: inherit;
+    color: #FFFFFF;
+}
+
+h1{
+    position: relative;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;    
+    line-height: 70px;
+    
+    color: white;
+}
+
+h2{   
+    position: relative;
+    text-align: center;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 70px;
+    
+    color: #FFFFFF;
+}
+
+h4{ 
+    position: relative;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    
+    color: black;
+}
+
+.modules{
+    position: relative;
+    font-style: normal;
+    font-size: 40px;
+    line-height: 70px;
+    padding-bottom: 50px;
+    
+    color: black;
+}
+
+.greenbar {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 4px;
+    background-color: #65FC74;
+}
+
+.modulesbar {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 300px;
+    height: 4px;
+    background-color: #8557E7;
+}
+
+.form {
+    margin-top: 100px;
+}
+
+label {
+    font-size: 40px;
+}
+
+.form-control {
+     width: 542px;
+     height: 50px;
+}
+
+.form-group {
+    margin-bottom: 40px;
+}
+
+ol{
+    list-style-type: none;
+}
+
+.bg-color{
+    background:#414141;
+}
+
+/* footer*/
+.footer {
+    background:#414141;
+    color: #FFFFFF;
+    height:400px;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+}
+.footer .footer-content{
+    height: 350px;
+    display: flex;
+}
+
+.footer .footer-content .footer-section {
+    flex: 1;
+    padding: 23px;
+}
+.footer .footer-content h1,
+.footer .footer-content h2 {
+    color: white;
+}
+
+.footer .footer-content .about .contact span {
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+}
+
+.footer .footer-content .about .socials a {
+    border: 1px solid white;
+    width:45px;
+    height: 41px;
+    padding-top: 5px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.2em;
+    border-radius: 5px;
+    transition: all .3s;
+}
+.footer .footer-content .about .socials a:hover{
+    border:1px solid white;
+    color: black;
+    transition: all .3s;
+}
+
+.footer .footer-bottom{
+    color:#FFFFFF;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+
+} 
+
+.light-grey {
+    position: absolute;
+width: 1843px;
+height: 0px;
+left: 30px;
+border: 3px 
+solid #525252;
+}
+/*link wrapper */
+
+.nav-link-wrapper {
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+    padding-right: 30px;
+    padding-top: 25px;
+}
+
+    .nav-link-wrapper a {
+        color: #8a8a8a;
+        text-decoration: none;
+        transition: color 0.5s;
+        display: inline;
+    }
+
+    .nav-link-wrapper a:hover {
+        color: black;
+        display: inline;
+    }
+
+        .active-nav-link a {
+            color: green;
+        }
