@@ -54,15 +54,46 @@ body{
 
 .left-nav-bar {
     padding-top: 40px;
-    width: 500px;
     height: 100%;
     background-color: #E8E8E8;
     text-align: center;
 }
 
 .maincontent{
+    width: 73%;
     position: absolute;
     margin-left: 500px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.studentbanner {
+    background-color: #5385C1;
+    height: 500px;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}
+
+.limebar {
+    width: 100px;
+    top: 44%;
+    height: 2px;
+    background-color: #65FC74;
+    margin-left: 47.3%;
+}
+
+.studentbannerbutton {
+    margin-top: 2%;
+}
+
+.getstarted{
+    background-color: #00BD62;
+    color: white;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 14px 40px;
+    border-color: #1ACBC0;
 }
 
 .navbar-default {
@@ -167,6 +198,17 @@ h4{
     height: 4px;
     background-color: #8557E7;
 }
+
+.pythonbar {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 250px;
+    height: 4px;
+    background-color: #8557E7;
+}
+
 
 .form {
     margin-top: 100px;
