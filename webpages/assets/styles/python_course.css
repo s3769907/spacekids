@@ -65,6 +65,8 @@ body{
     margin-left: 500px;
     text-align: center;
     padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .studentbanner {
@@ -94,6 +96,12 @@ body{
     font-size: 20px;
     padding: 14px 40px;
     border-color: #1ACBC0;
+}
+
+.paragraph {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 50px;
 }
 
 .navbar-default {
